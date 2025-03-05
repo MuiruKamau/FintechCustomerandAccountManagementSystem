@@ -3,7 +3,7 @@ package com.ben.app.customer;
 import com.ben.app.customer.CustomerRequestDTO;
 import com.ben.app.customer.CustomerResponseDTO;
 import com.ben.app.customer.CustomerUpdateDTO;
-import com.ben.app.customer.CustomerModel; // Renamed import from Customer to CustomerModel
+import com.ben.app.customer.CustomerModel;
 import com.ben.app.customer.CustomerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

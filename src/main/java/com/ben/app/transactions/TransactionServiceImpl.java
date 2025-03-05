@@ -140,7 +140,7 @@ public class TransactionServiceImpl implements TransactionService {
                 account.setBalance(account.getBalance().subtract(transactionAmount));
                 break;
             case TRANSFER:
-                // Logic for TRANSFER type if needed, for now, handled as DEPOSIT or WITHDRAWAL on different accounts
+
                 break;
         }
         accountRepository.save(account); // Save the updated account balance
